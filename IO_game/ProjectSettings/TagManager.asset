@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - X_plus
-  - Minion
   layers:
   - Default
   - TransparentFX
@@ -13,8 +12,8 @@ TagManager:
   - 
   - Water
   - UI
-  - Minion
-  - Player
+  - 
+  - 
   - 
   - 
   - 
