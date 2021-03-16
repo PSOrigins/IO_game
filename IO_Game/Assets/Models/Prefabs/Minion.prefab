@@ -84,7 +84,7 @@ MonoBehaviour:
   IndicatorUI: {fileID: 9215787599424421547, guid: 9b82770207d44644aabba2feb8eaf3b7, type: 3}
   Speed: 15
   Radius: 15
-  Offset: 7
+  Offset: 2
 --- !u!136 &1338196843690838215
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -107,6 +107,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 8271571737285119023}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: bf7b6df156edb364992f7044f429bcc9, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bf7b6df156edb364992f7044f429bcc9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -119,6 +123,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf7b6df156edb364992f7044f429bcc9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bf7b6df156edb364992f7044f429bcc9, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -128,14 +136,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf7b6df156edb364992f7044f429bcc9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: bf7b6df156edb364992f7044f429bcc9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: bf7b6df156edb364992f7044f429bcc9, type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf7b6df156edb364992f7044f429bcc9, type: 3}

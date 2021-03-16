@@ -71,6 +71,8 @@ public class Minion : MonoBehaviour
             PlayerController.MinionCount++;
             PlayerController.Instance.AddPerson();
             Target = PlayerTransform;
+            transform.GetChild(0).GetChild(1).GetComponent<SkinnedMeshRenderer>().material.color = Color.yellow;
+            
         }
         else if (Target != null && Vector3.Distance(transform.position, Target.position) > Offset)
         {
@@ -84,4 +86,5 @@ public class Minion : MonoBehaviour
 
         RB.velocity = Vector3.zero;
     }
+
 }
